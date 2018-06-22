@@ -1,0 +1,21 @@
+{
+    "name": "makcent/yii2-authclient",
+    "description": "Yii Authclient for Weibo, QQ, Wechat and etc",
+    "keywords": ["yii authclient","Weibo Auth","QQ Auth","Wechat Auth"],
+    "homepage": "https://github.com/makcent/yii2-authclient",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fu Ming",
+            "email": "712042810@qq.com",
+            "homepage": "https://github.com/makcent/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2-authclient": "~2.0.5@dev"
+    },
+    "autoload": {
+        "psr-4": {"makcent\\authclient\\": ""}
+    }
+}
